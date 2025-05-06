@@ -2,6 +2,7 @@
 # Geração de mapa com geobr e ggplot2 ------------------------------------------------------------------------------------------------------
 # Autoria do script: Jeanne Franco ---------------------------------------------------------------------------------------------------------
 # Data: 05/05/25 ---------------------------------------------------------------------------------------------------------------------------
+# Referência: https://www.youtube.com/watch?v=N1Ash3OZkg0&t=37s ----------------------------------------------------------------------------
 
 # Fluxo da produção de mapas ---------------------------------------------------------------------------------------------------------------
 
@@ -11,3 +12,7 @@
 ## O pacote geobr trará as informações do IBGE
 
 ## Dados:
+
+## Obter os dados para juntar ao dados do shapefile
+## Precisa de uma coluna para juntar dados (merge ou join)
+## Cuidado com dimensões, acentos, espaços e caracteres que possam interferir na junção
