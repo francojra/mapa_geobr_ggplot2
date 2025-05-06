@@ -2,7 +2,7 @@
 # Geração de mapa com geobr e ggplot2 ------------------------------------------------------------------------------------------------------
 # Autoria do script: Jeanne Franco ---------------------------------------------------------------------------------------------------------
 # Data: 05/05/25 ---------------------------------------------------------------------------------------------------------------------------
-# Referência: https://www.youtube.com/watch?v=N1Ash3OZkg0&t=37s ----------------------------------------------------------------------------
+# Referência: https://rpubs.com/prisciladalepiane/mapa_brasil ------------------------------------------------------------------------------
 
 # Fluxo da produção de mapas ---------------------------------------------------------------------------------------------------------------
 
@@ -23,9 +23,7 @@
 
 # Baixar pacotes ---------------------------------------------------------------------------------------------------------------------------
 
-library(geobr)
-library(ggplot2)
-library(sf)
-library(dplyr)
-library(rio)
-library(readr)
+library(geobr) # para obter o shapefile do mapa do Brasil.
+library(ggplot2) # para construir os gráficos.
+library(dplyr) # para a manipulação dos dados.
+library(readxl) # para extrair os dados do excel.
