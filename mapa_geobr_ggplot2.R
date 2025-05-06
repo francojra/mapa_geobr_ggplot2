@@ -16,3 +16,16 @@
 ## Obter os dados para juntar ao dados do shapefile
 ## Precisa de uma coluna para juntar dados (merge ou join)
 ## Cuidado com dimensões, acentos, espaços e caracteres que possam interferir na junção
+
+## Plotagem:
+
+## Fazer o cartograma por meio do pacote ggplot2
+
+# Baixar pacotes ---------------------------------------------------------------------------------------------------------------------------
+
+library(geobr)
+library(ggplot2)
+library(sf)
+library(dplyr)
+library(rio)
+library(readr)
