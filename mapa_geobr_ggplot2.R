@@ -40,6 +40,10 @@ biomas <- geobr::read_biomes()
 glimpse(biomas)
 View(biomas)
 
+estados <- read_state(year = 2020)
+glimpse(brasil)
+View(brasil)
+
 ## A função geom_sf do ggplot2 usa as coordenadas que estão em 
 ## dados_brasil$geom no formato “sfc_MULTIPOLYGON” para fazer as
 ## fronteiras dos estados.
