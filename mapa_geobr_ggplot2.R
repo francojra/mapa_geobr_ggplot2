@@ -59,3 +59,12 @@ ggplot() +
 ggplot() +
   geom_sf(data = estados) +
   theme_minimal()
+
+## Adicionando legendas
+
+ggplot() +
+  geom_sf(data = estados) +
+  geom_sf_label(data = estados, aes(label = abbrev_state), 
+                size = 2) +
+  xlab("") +  ylab("") +
+  theme_minimal()
