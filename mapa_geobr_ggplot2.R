@@ -82,6 +82,8 @@ view(dados)
 ## polígonos de áreas de risco incluídas no polígono em questão.
 
 dados_risco <- dados |>
-  select(quantidade_poligono, sigla_uf)
+  select(quantidade_poligono, sigla_uf) |>
+  group_by(sigla_uf) |>
+  summarise(soma_poligono = sum(quantidade_poligono))
 
 view(dados_risco)
