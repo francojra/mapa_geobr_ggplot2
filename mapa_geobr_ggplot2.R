@@ -48,6 +48,14 @@ View(estados)
 ## dados_brasil$geom no formato “sfc_MULTIPOLYGON” para fazer as
 ## fronteiras dos estados.
 
+## Mapa do Brasil
+
 ggplot() +
   geom_sf(data = brasil) +
+  theme_minimal()
+
+## Mapa dos estados do Brasil
+
+ggplot() +
+  geom_sf(data = estados) +
   theme_minimal()
