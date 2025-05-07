@@ -44,6 +44,8 @@ estados <- read_state(year = 2020)
 glimpse(estados)
 View(estados)
 
+# Visualizar mapas dos shapefiles ----------------------------------------------------------------------------------------------------------
+
 ## A função geom_sf do ggplot2 usa as coordenadas que estão em 
 ## dados_brasil$geom no formato “sfc_MULTIPOLYGON” para fazer as
 ## fronteiras dos estados.
@@ -68,3 +70,7 @@ ggplot() +
                 size = 2) +
   xlab("") +  ylab("") +
   theme_minimal()
+
+# Carregar dados de áreas de risco ---------------------------------------------------------------------------------------------------------
+
+
