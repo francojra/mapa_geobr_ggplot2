@@ -26,7 +26,7 @@
 library(geobr) # para obter o shapefile do mapa do Brasil.
 library(ggplot2) # para construir os gráficos.
 library(dplyr) # para a manipulação dos dados.
-library(readxl) # para extrair os dados do excel.
+library(tidyverse) # para extrair os dados do arquivo csv
 
 # Baixar shapefile do Brasil ---------------------------------------------------------------------------------------------------------------
 
@@ -73,4 +73,8 @@ ggplot() +
 
 # Carregar dados de áreas de risco ---------------------------------------------------------------------------------------------------------
 
+dados <- read_csv("br_geobr_mapas_area_risco_desastre.csv") 
+
+glimpse(dados)
+view(dados)
 
