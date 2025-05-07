@@ -78,3 +78,10 @@ dados <- read_csv("br_geobr_mapas_area_risco_desastre.csv")
 glimpse(dados)
 view(dados)
 
+## OBS.: quantidade_poligono = Número de 
+## polígonos de áreas de risco incluídas no polígono em questão.
+
+dados_risco <- dados |>
+  select(quantidade_poligono, sigla_uf)
+
+view(dados_risco)
