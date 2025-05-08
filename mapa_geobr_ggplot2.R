@@ -102,10 +102,13 @@ view(dados_risco_estados)
 # Gerar mapa -------------------------------------------------------------------------------------------------------------------------------
 
 ggplot(dados_risco_estados, aes(fill = soma_poligono)) +
-  geom_sf() +
-  scale_fill_gradient(low = "gray", high = "red",
-    name = "Número total \nde Polígonos\nde Áreas de\n Risco") +
+  geom_sf(color = "black", size = 4) +
+  scale_fill_viridis(option = "magma", direction = -1,
+                     name = "Número de Polígonos\nde Áreas de Risco") +
+  # scale_fill_gradient(low = "blue", 
+  #                     high = "red", 
+  #   name = "Número total \nde Polígonos\nde Áreas de\n Risco") +
   xlab("") +  ylab("") +
   labs(title = "Áreas de Risco no Brasil",
        caption = "Fonte: Instituto Brasileiro de Geografia e Estatística (IBGE).") +
-  theme_minimal()
+  theme_light()
