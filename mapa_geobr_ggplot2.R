@@ -44,6 +44,9 @@ estados <- read_state(year = 2020)
 glimpse(estados)
 View(estados)
 
+estados <- estados |>
+  select(abbrev_state, geom)
+
 # Visualizar mapas dos shapefiles ----------------------------------------------------------------------------------------------------------
 
 ## A função geom_sf do ggplot2 usa as coordenadas que estão em 
