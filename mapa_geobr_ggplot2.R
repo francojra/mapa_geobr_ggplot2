@@ -98,3 +98,14 @@ dados_risco_estados <- estados %>%
   left_join(dados_risco, by = c("abbrev_state")) 
 
 view(dados_risco_estados)
+
+# Gerar mapa -------------------------------------------------------------------------------------------------------------------------------
+
+ggplot(dados_risco_estados, aes(fill = soma_poligono)) +
+  geom_sf() +
+  scale_fill_gradient(low = "gray", high = "red",
+    name = "Número total \nde polígonos\nde áreas de\n risco") +
+  xlab("") +  ylab("") +
+  labs(title = "Áreas de risco por estado\n do Brasil",
+       caption = "Fonte: Instituto Brasileiro de Geografia e Estatística (IBGE)") +
+  theme_minimal()
