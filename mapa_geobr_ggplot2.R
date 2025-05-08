@@ -104,8 +104,8 @@ view(dados_risco_estados)
 ggplot(dados_risco_estados, aes(fill = soma_poligono)) +
   geom_sf() +
   scale_fill_gradient(low = "gray", high = "red",
-    name = "Número total \nde polígonos\nde áreas de\n risco") +
+    name = "Número total \nde Polígonos\nde Áreas de\n Risco") +
   xlab("") +  ylab("") +
-  labs(title = "Áreas de risco por estado\n do Brasil",
-       caption = "Fonte: Instituto Brasileiro de Geografia e Estatística (IBGE)") +
+  labs(title = "Áreas de Risco no Brasil",
+       caption = "Fonte: Instituto Brasileiro de Geografia e Estatística (IBGE).") +
   theme_minimal()
