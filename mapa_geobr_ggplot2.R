@@ -87,3 +87,8 @@ dados_risco <- dados |>
   summarise(soma_poligono = sum(quantidade_poligono))
 
 view(dados_risco)
+
+# Mesclando os dados -----------------------------------------------------------------------------------------------------------------------
+
+dados_brasil <- brasil %>% 
+  left_join(dados_risco, by = c("abbrev_state" = "Estado")) 
