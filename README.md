@@ -1,10 +1,10 @@
 ## Elaboração de mapa com geobr e ggplot2 - Dados IBGE
 
-#### &rarr Autoria do script: Jeanne Franco 
-#### &rarr Data: 05/05/25 
-#### &rarr Referência: https://rpubs.com/prisciladalepiane/mapa_brasil 
+### → Autoria do script: Jeanne Franco 
+### → Data: 05/05/25 
+### → Referência: https://rpubs.com/prisciladalepiane/mapa_brasil 
 
-##### Tópicos do script:
+#### 🌟 Tópicos do script:
 
 1. Fluxo da produção de mapas no R:
 - Shape;
