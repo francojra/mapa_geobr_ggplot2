@@ -18,4 +18,7 @@
 - Mapa do Brasil;
 - Mapa dos estados do Brasil;
 - Adicionando legendas.
+5. Carregar dados de áreas de risco;
+6. Mesclando os dados dos shapefiles e áreas de rico;
+7. Gerar mapa final. 
 
