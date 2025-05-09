@@ -1,2 +1,6 @@
-# mapa_geobr_ggplot2
-Script com o passo a passo para elaboração de mapas usando os dados dos pacotes geobr e ggplot2.
+# Elaboração de mapa com geobr e ggplot2 - Dados IBGE
+
+## Autoria do script: Jeanne Franco 
+## Data: 05/05/25 
+## Referência: https://rpubs.com/prisciladalepiane/mapa_brasil 
+
