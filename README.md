@@ -4,7 +4,7 @@
 ### → Data: 05/05/25 
 ### → Referência: https://rpubs.com/prisciladalepiane/mapa_brasil 
 
-#### 🌟 Tópicos do script:
+#### ☞ Tópicos do script:
 
 1. Fluxo da produção de mapas no R:
 - Shape;
