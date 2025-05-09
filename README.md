@@ -13,6 +13,9 @@
 2. Carregar pacotes:
 - library(geobr);
 - library(tidyverse).
-3. Baixar shapefile do Brasil;
-4. 
+3. Baixar shapefile do Brasil, dos estados e dos biomas;
+4. Visualizar mapas dos shapefiles:
+- Mapa do Brasil;
+- Mapa dos estados do Brasil;
+- Adicionando legendas.
 
