@@ -10,5 +10,9 @@
 - Shape;
 - Dados;
 - Plotagem.
-2. Carregar pacotes;
+2. Carregar pacotes:
+- library(geobr);
+- library(tidyverse).
+3. Baixar shapefile do Brasil;
+4. 
 
